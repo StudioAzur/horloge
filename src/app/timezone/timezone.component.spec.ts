@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AiguillesComponent } from './aiguilles.component';
+import { TimezoneComponent } from './timezone.component';
 
-describe('AiguillesComponent', () => {
-  let component: AiguillesComponent;
-  let fixture: ComponentFixture<AiguillesComponent>;
+describe('TimezoneComponent', () => {
+  let component: TimezoneComponent;
+  let fixture: ComponentFixture<TimezoneComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AiguillesComponent ]
+      declarations: [ TimezoneComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AiguillesComponent);
+    fixture = TestBed.createComponent(TimezoneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
