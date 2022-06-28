@@ -1,1 +1,4 @@
-<p>villes works!</p>
+<div *ngFor="let country of countries">
+    <h3>{{country.name}}</h3>
+    <app-timezone [hour]="setHour(country.timezone)"></app-timezone>
+</div>
